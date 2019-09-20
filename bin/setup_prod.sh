@@ -23,7 +23,7 @@ oc set volume dc/tasks-blue --add --name=jboss-config1 --mount-path=/opt/eap/sta
 oc set probe dc/tasks-blue --readiness --get-url=http://:8080/ --initial-delay-seconds=40 --timeout-seconds=1 -n ${GUID}-tasks-prod
 oc set probe dc/tasks-blue --liveness --get-url=http://:8080/ --initial-delay-seconds=40 --timeout-seconds=1 -n ${GUID}-tasks-prod
 # Setting 'wrong' VERSION. This will need to be updated in the pipeline
-oc set env dc/tasks-blue VERSION='0.0 (tsks-blue)' -n ${GUID}-tasks-prod
+oc set env dc/tasks-blue VERSION='0.0 (tasks-blue)' -n ${GUID}-tasks-prod
 
 
 # Create Green Application
