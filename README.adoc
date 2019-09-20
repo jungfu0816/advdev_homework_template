@@ -6,16 +6,17 @@ jhsu@redhat.com
 == git source
 https://github.com/jungfu0816/advdev_homework_template.git
 
-== git commit history
-https://github.com/jungfu0816/advdev_homework_template/commits/master
-(used to build successfully on 9/15 but didn't upload readme to homework page, re-do whole process on 9/20.)
-
 == jenkins console history
 https://jenkins-gpte-jenkins.apps.na311.openshift.opentlc.com/job/OpenShift%20Advanced%20Application%20Deployment%20Homework%20Grading/189/console
-
+https://jenkins-gpte-jenkins.apps.na311.openshift.opentlc.com/job/OpenShift%20Advanced%20Application%20Deployment%20Homework%20Grading/182/console
 
 == jenkins parameters
 GUID=a62e
 USER=jhsu-redhat.com
 REPO=https://github.com/jungfu0816/advdev_homework_template.git
 CLUSTER=na311.openshift.opentlc.com
+
+
+== (Note) git commit history
+https://github.com/jungfu0816/advdev_homework_template/commits/master
+(used to build successfully on 9/15 but didn't upload readme to homework page, re-do whole process on 9/20.)
