@@ -1,12 +1,21 @@
-= OpenShift Advanced Development Homework Template
+= openshift advnced development homework
 
-[NOTE]
-If you are looking for the 40h homework (Parksmap etc.) please checkout branch `40h`.
+== Author info
+jhsu@redhat.com
 
-== Tasks Demo Application
+== git source
+https://github.com/jungfu0816/advdev_homework_template.git
 
-This is an example JEE application to be used in the Advanced OpenShift Development Homework Assignment. Read these instructions carefully to successfully complete the homework assignment.
+== git commit history
+https://github.com/jungfu0816/advdev_homework_template/commits/master
+(used to build successfully on 9/15 but didn't upload readme to homework page, re-do whole process on 9/20.)
 
-You are expected to clone this repository into your own public repository (GitHub, Gogs, Gitlab). This repository needs to be accessible to the instructor.
+== jenkins console history
+https://jenkins-gpte-jenkins.apps.na311.openshift.opentlc.com/job/OpenShift%20Advanced%20Application%20Deployment%20Homework%20Grading/189/console
 
-Your Homework assignment will be graded by executing the pipeline at https://github.com/redhat-gpte-devopsautomation/advdev_homework_grading.
+
+== jenkins parameters
+GUID=a62e
+USER=jhsu-redhat.com
+REPO=https://github.com/jungfu0816/advdev_homework_template.git
+CLUSTER=na311.openshift.opentlc.com
